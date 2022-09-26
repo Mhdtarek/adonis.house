@@ -116,9 +116,6 @@ document
         if (res.country && !cfCountryCode) country = res.country.toLowerCase();
       } else {
         console.error("Error with getting IP info:", res);
-        findHomeBtn.innerText = `IP API fetching error: ${res}`;
-        await sleep(3000);
-        return;
       }        
     } catch (e) {
       console.error(e);
