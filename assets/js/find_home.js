@@ -7,6 +7,9 @@ let starSpeed = 0.1;
 window.addEventListener('load', async () => {
   // Add event listener to the "Begin" button.
   document.getElementById('begin-btn').addEventListener('click', async () => {
+
+    document.getElementById('begin-btn').disabled = 'disabled';
+
     // Replace static Earth image in stage 1 with spinning Earth.
     const stage1Globe = document.getElementById('stage-1-globe');
     await loadImage(stage1Globe, stage1Globe.getAttribute('data-src'))
@@ -70,6 +73,8 @@ window.addEventListener('load', async () => {
 document
   .getElementsByClassName('find-home-button')[0]
   .addEventListener('click', async () => {
+    document.getElementsByClassName('find-home-button')[0].disabled = 'disabled';
+
     // ..Then we'll change the globe gif to a faster one, to tell the user something more is happening
     const globeImg = document.getElementsByClassName('globe')[0];
     await loadImage(globeImg, 'assets/img/stage1/Rotating_earth_animated_transparent_fast.webp');
@@ -99,12 +104,19 @@ document
     }
 
     try {
-      let res = await fetchPlus('https://ipapi.co/json', {}, 5)
+      let cfCountryCode = await fetchPlus('https://cloudflare-quic.com/b/headers', {}, 5)
+        .then(data => data.headers['Cf-Ipcountry']);
+      if (cfCountryCode) country = cfCountryCode.toLowerCase();
+
+      let res = await fetchPlus('https://ipapi.co/json', {}, 5);
+
       if (res) {
         if (res.region_code) region_code = res.region_code.toLowerCase();
 
-        if (res.country) country = res.country.toLowerCase();
+        if (res.country && !cfCountryCode) country = res.country.toLowerCase();
       } else {
+        let res = await fetchPlus('https://ipapi.co/json', {}, 5);
+
         console.error("Error with getting IP info:", res);
         findHomeBtn.innerText = `IP API fetching error: ${res}`;
         await sleep(3000);
