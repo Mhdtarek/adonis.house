@@ -180,6 +180,12 @@
     "cc": "in"
   },
   {
+    "match": "Indonesia",
+    "country": "Indonesia",
+    "invite": "https://discord.gg/zQZW9C4u",
+    "cc": "id"
+  },
+  {
     "match": "Iran إيران ایران",
     "country": "Iran",
     "invite": "https://discord.gg/r7Vyp4TnHM",
@@ -226,6 +232,12 @@
     "country": "Jordan",
     "invite": "https://discord.gg/TQAJz5XN",
     "cc": "jo"
+  },
+  {
+    "match": "Kazakhstan Қазақстан",
+    "country": "Kazakhstan",
+    "invite": "https://discord.gg/7E8nP6JD",
+    "cc": "kz"
   },
   {
     "match": "Kosovo Kosova Косово",
