@@ -456,6 +456,12 @@
     "cc": "tr"
   },
   {
+    "match": "UAE United Arab Emirates",
+    "country": "United Arab Emirates",
+    "invite": "https://discord.gg/T9djSMu34u",
+    "cc": "ae"
+  },
+  {
     "match": "UK United Kingdom England",
     "country": "UK/England",
     "invite": "https://discord.gg/m4NgBrfNuX",
@@ -480,10 +486,10 @@
     "cc": "ua"
   },
   {
-    "match": "UAE United Arab Emirates",
-    "country": "United Arab Emirates",
-    "invite": "https://discord.gg/T9djSMu34u",
-    "cc": "ae"
+    "match": "Uruguay",
+    "country": "Uruguay",
+    "invite": "https://discord.gg/jAmgW5PF",
+    "cc": "uy"
   },
   {
     "match": "USA United States America",
@@ -508,6 +514,12 @@
     "country": "United States/Connecticut",
     "invite": "https://discord.gg/Mpy8NJgGm2",
     "cc": "us-ct"
+  },
+  {
+    "match": "USA United States America Florida",
+    "country": "United States/Florida",
+    "invite": "https://discord.gg/WGTK2ZebR2",
+    "cc": "us-fl"
   },
   {
     "match": "USA United States America Montana",
