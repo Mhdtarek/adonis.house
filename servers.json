@@ -300,6 +300,12 @@
     "cc": "md"
   },
   {
+    "match": "Montenegro Crna Gora",
+    "country": "Montenegro",
+    "invite": "https://discord.gg/pjfg8DnXz6",
+    "cc": "me"
+  },
+  {
     "match": "Morocco المغرب",
     "country": "Morocco",
     "invite": "https://discord.gg/2kbKHPVsFp",
@@ -382,6 +388,12 @@
     "country": "Russia",
     "invite": "https://discord.gg/wJkwr4PRFP",
     "cc": "ru"
+  },
+  {
+    "match": "Saudi Arabia السعودية",
+    "country": "Saudi Arabia",
+    "invite": "https://discord.gg/mye9zG3Yw9",
+    "cc": "sa"
   },
   {
     "match": "Serbia Србија",
