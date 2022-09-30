@@ -516,6 +516,12 @@
     "cc": "us-az"
   },
   {
+    "match": "USA United States America California",
+    "country": "United States/California",
+    "invite": "https://discord.gg/QK3YAC99eQ",
+    "cc": "us-ca"
+  },
+  {
     "match": "USA United States America Colorado",
     "country": "United States/Colorado",
     "invite": "https://discord.gg/FTPshqUkAE",
