@@ -96,6 +96,12 @@
     "cc": "kh"
   },
   {
+    "match": "Chile",
+    "country": "Chile",
+    "invite": "https://discord.gg/wxmYHYVX",
+    "cc": "cl"
+  },
+  {
     "match": "Colombia",
     "country": "Colombia",
     "invite": "https://discord.gg/7varPFDpud",
@@ -228,6 +234,12 @@
     "cc": "jm"
   },
   {
+    "match": "Japan 日本",
+    "country": "Japan",
+    "invite": "https://discord.gg/N7GG7dHd",
+    "cc": "jp"
+  },
+  {
     "match": "Jordan",
     "country": "Jordan",
     "invite": "https://discord.gg/TQAJz5XN",
@@ -280,6 +292,12 @@
     "country": "Macedonia",
     "invite": "https://discord.gg/yDTEE6p79e",
     "cc": "mk"
+  },
+  {
+    "match": "Malaysia",
+    "country": "Malaysia",
+    "invite": "https://discord.gg/aeHmUTyj",
+    "cc": "my"
   },
   {
     "match": "Mauritius île Maurice",
