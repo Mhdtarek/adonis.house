@@ -168,6 +168,12 @@
     "cc": "gr"
   },
   {
+    "match": "Honduras",
+    "country": "Honduras",
+    "invite": "https://discord.gg/WzgRBW9F",
+    "cc": "hn"
+  },
+  {
     "match": "Hong Kong 香港",
     "country": "Hong Kong",
     "invite": "https://chat.whatsapp.com/ERVMPmHFK3cKScseHsx5ys",
@@ -330,6 +336,12 @@
     "cc": "ma"
   },
   {
+    "match": "Myanmar မြန်မာ",
+    "country": "Myanmar",
+    "invite": "https://discord.gg/ChjYgW63",
+    "cc": "ma"
+  },
+  {
     "match": "Nepal नेपाल",
     "country": "Nepal",
     "invite": "https://discord.gg/wPfJTg6pCy",
@@ -370,6 +382,12 @@
     "country": "Paraguay",
     "invite": "https://discord.gg/nxUmT6er",
     "cc": "py"
+  },
+  {
+    "match": "Peru Perú",
+    "country": "Peru",
+    "invite": "https://discord.gg/4r6UJDqQ",
+    "cc": "pe"
   },
   {
     "match": "Philippines Pilipinas",
@@ -418,6 +436,12 @@
     "country": "Serbia",
     "invite": "https://discord.gg/EA9md5cJ8t",
     "cc": "rs"
+  },
+  {
+    "match": "Singapore 新加坡",
+    "country": "Singapore",
+    "invite": "https://discord.gg/NWMr7EGz",
+    "cc": "sg"
   },
   {
     "match": "Slovakia Slovensko",
@@ -556,6 +580,12 @@
     "country": "United States/Florida",
     "invite": "https://discord.gg/WGTK2ZebR2",
     "cc": "us-fl"
+  },
+  {
+    "match": "USA United States America Hawaii",
+    "country": "United States/Hawaii",
+    "invite": "https://discord.gg/ayPEbP6k",
+    "cc": "us-hi"
   },
   {
     "match": "USA United States America Montana",
