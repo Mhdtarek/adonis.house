@@ -480,6 +480,12 @@
     "cc": "lk"
   },
   {
+    "match": "Syria سوريا",
+    "country": "Syria",
+    "invite": "https://discord.gg/wwthnhcP",
+    "cc": "sy"
+  },
+  {
     "match": "Sweden Sverige",
     "country": "Sweden",
     "invite": "https://discord.gg/sWmNyWuwr7",
@@ -526,6 +532,12 @@
     "country": "UK/England",
     "invite": "https://discord.gg/m4NgBrfNuX",
     "cc": "gb-eng"
+  },
+  {
+    "match": "UK United Kingdom Northern Ireland",
+    "country": "UK/Northern Ireland",
+    "invite": "https://discord.gg/pY4AC5HF",
+    "cc": "gb-nir"
   },
   {
     "match": "UK United Kingdom Scotland",
