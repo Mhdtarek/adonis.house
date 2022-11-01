@@ -128,7 +128,7 @@
   {
     "match": "Egypt مصر",
     "country": "Egypt",
-    "invite": "https://discord.gg/arbun9xfvB",
+    "invite": "https://discord.gg/aPNV9rrk",
     "cc": "eg"
   },
   {
@@ -304,6 +304,12 @@
     "country": "Macedonia",
     "invite": "https://discord.gg/yDTEE6p79e",
     "cc": "mk"
+  },
+  {
+    "match": "Malawi",
+    "country": "Malawi",
+    "invite": "https://discord.gg/eWWqGkBeQa",
+    "cc": "mw"
   },
   {
     "match": "Malaysia",
