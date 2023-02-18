@@ -1,656 +1,104 @@
 [
   {
-    "match": "Albania Shqipëria",
-    "country": "Albania",
-    "invite": "https://discord.gg/fuauP9aWct",
-    "cc": "al"
-  },
-  {
-    "match": "Algeria Algérie الجزائر",
-    "country": "Algeria",
-    "invite": "https://discord.gg/TFctksSEr3",
-    "cc": "dz"
-  },
-  {
-    "match": "Argentina",
-    "country": "Argentina",
-    "invite": "https://discord.gg/uN9mrHGxtx",
-    "cc": "ar"
-  },
-  {
-    "match": "Armenia Հայաստան",
-    "country": "Armenia",
-    "invite": "https://discord.gg/EDmQJgcAEh",
-    "cc": "am"
-  },
-  {
-    "match": "Australia",
-    "country": "Australia",
-    "invite": "https://discord.gg/rGtxTwngec",
-    "cc": "au"
-  },
-  {
-    "match": "Austria Österreich Osterreich",
-    "country": "Austria",
-    "invite": "https://discord.gg/hdr4hWqUEZ",
-    "cc": "at"
-  },
-  {
-    "match": "Azerbaijan Azərbaycan",
-    "country": "Azerbaijan",
-    "invite": "https://discord.gg/PvEBaSJSqd",
-    "cc": "az"
-  },
-  {
-    "match": "Bahrain البحرين",
-    "country": "Bahrain",
-    "invite": "https://discord.gg/rh2f8CRC2n",
-    "cc": "bh"
-  },
-  {
-    "match": "Bangladesh বাংলাদেশ",
-    "country": "Bangladesh",
-    "invite": "https://discord.gg/ED54CMWpH4",
-    "cc": "bd"
-  },
-  {
-    "match": "Belgium België Belgique",
-    "country": "Belgium",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "be"
-  },
-  {
-    "match": "Belarus Беларусь",
-    "country": "Belarus",
-    "invite": "https://discord.gg/PnbVj455CM",
-    "cc": "by"
-  },
-  {
-    "match": "Bosnia and Herzegovina Bosna i Hercegovina",
-    "country": "Bosnia and Herzegovina",
-    "invite": "https://discord.gg/y6NNhDRPw4",
-    "cc": "ba"
-  },
-  {
-    "match": "Brazil Brasil",
-    "country": "Brazil",
-    "invite": "https://discord.gg/gRPsENzWwG",
-    "cc": "br"
-  },
-  {
-    "match": "Bulgaria България",
+    "match": "Bulgaria",
     "country": "Bulgaria",
-    "invite": "https://discord.gg/ssGsvu9B6T",
+    "invite": "https://discord.gg/EQjpNzEkyt",
     "cc": "bg"
   },
   {
-    "match": "Canada",
-    "country": "Canada",
-    "invite": "https://discord.gg/vevbsx8zqy",
-    "cc": "ca"
-  },
-  {
-    "match": "Cambodia",
-    "country": "Cambodia",
-    "invite": "https://discord.gg/ehkVcTcK",
-    "cc": "kh"
-  },
-  {
-    "match": "Chile",
-    "country": "Chile",
-    "invite": "https://discord.gg/krmyD8xtrM",
-    "cc": "cl"
-  },
-  {
-    "match": "Colombia",
-    "country": "Colombia",
-    "invite": "https://discord.gg/XpmdNSQVwF",
-    "cc": "co"
-  },
-  {
-    "match": "Croatia Hrvatska",
+    "match": "Croatia",
     "country": "Croatia",
-    "invite": "https://discord.gg/sgVZWJMYCj",
+    "invite": "https://discord.gg/uHP6zMG6ee",
     "cc": "hr"
   },
   {
-    "match": "Czech Republic Česká republika",
-    "country": "Czech Republic",
-    "invite": "https://discord.gg/2bqjyjhZJh",
-    "cc": "cz"
-  },
-  {
-    "match": "Denmark Danmark",
-    "country": "Denmark",
-    "invite": "https://discord.gg/XTKmxdhHB4",
-    "cc": "dk"
-  },
-  {
-    "match": "Egypt مصر",
-    "country": "Egypt",
-    "invite": "https://discord.gg/aPNV9rrk",
-    "cc": "eg"
-  },
-  {
-    "match": "Estonia Eesti",
-    "country": "Estonia",
-    "invite": "https://discord.gg/2dQtS5C7f5",
-    "cc": "ee"
-  },
-  {
-    "match": "Finland Suomi",
-    "country": "Finland",
-    "invite": "https://discord.gg/9AJRdQ9xdE",
-    "cc": "fi"
-  },
-  {
-    "match": "France",
-    "country": "France",
-    "invite": "https://discord.gg/PfcCb9PKEQ",
-    "cc": "fr"
-  },
-  {
-    "match": "Georgia საქართველოს",
-    "country": "Georgia",
-    "invite": "https://discord.gg/CNzAw78bxX",
-    "cc": "ge"
-  },
-  {
-    "match": "Germany Deutschland",
+    "match": "Germany",
     "country": "Germany",
     "invite": "https://discord.gg/EgrhYMQkqv",
     "cc": "de"
   },
   {
-    "match": "Greece Ελλάδα",
-    "country": "Greece",
-    "invite": "https://discord.gg/2KrWZtZqdh",
-    "cc": "gr"
-  },
-  {
-    "match": "Honduras",
-    "country": "Honduras",
-    "invite": "https://discord.gg/WzgRBW9F",
-    "cc": "hn"
-  },
-  {
-    "match": "Hong Kong 香港",
-    "country": "Hong Kong",
-    "invite": "https://chat.whatsapp.com/ERVMPmHFK3cKScseHsx5ys",
-    "cc": "hk"
-  },
-  {
-    "match": "Hungary Magyarország",
-    "country": "Hungary",
-    "invite": "https://discord.gg/SbGqFbdA7s",
-    "cc": "hu"
-  },
-  {
-    "match": "India भारत",
-    "country": "India",
-    "invite": "https://discord.gg/h3tBZuCcDR",
-    "cc": "in"
-  },
-  {
-    "match": "Indonesia",
-    "country": "Indonesia",
-    "invite": "https://discord.gg/zQZW9C4u",
-    "cc": "id"
-  },
-  {
-    "match": "Iran إيران ایران",
-    "country": "Iran",
-    "invite": "https://discord.gg/r7Vyp4TnHM",
-    "cc": "ir"
-  },
-  {
-    "match": "Iraq العراق",
-    "country": "Iraq",
-    "invite": "https://discord.gg/whJ6JHjMpu",
-    "cc": "iq"
-  },
-  {
-    "match": "Ireland Éireann",
-    "country": "Ireland",
-    "invite": "https://discord.gg/N6MGJTzgKg",
-    "cc": "ie"
-  },
-  {
-    "match": "Israel ישראל",
-    "country": "Israel",
-    "invite": "https://discord.gg/JQNUQaC2EP",
-    "cc": "il"
-  },
-  {
-    "match": "Italy Italia",
-    "country": "Italy",
-    "invite": "https://discord.gg/wsAWc37SgW",
-    "cc": "it"
-  },
-  {
-    "match": "Jersey Channel Islands",
-    "country": "Jersey",
-    "invite": "https://discord.gg/VgcWHNUHUz",
-    "cc": "je"
-  },
-  {
-    "match": "Jamaica",
-    "country": "Jamaica",
-    "invite": "https://discord.com/invite/WemG9JSfS2",
-    "cc": "jm"
-  },
-  {
-    "match": "Japan 日本",
-    "country": "Japan",
-    "invite": "https://discord.gg/N7GG7dHd",
-    "cc": "jp"
-  },
-  {
-    "match": "Jordan",
-    "country": "Jordan",
-    "invite": "https://discord.gg/TQAJz5XN",
-    "cc": "jo"
-  },
-  {
-    "match": "Kazakhstan Қазақстан",
-    "country": "Kazakhstan",
-    "invite": "https://discord.gg/7E8nP6JD",
-    "cc": "kz"
-  },
-  {
-    "match": "Kenya",
-    "country": "Kenya",
-    "invite": "https://discord.gg/z5A3b7nZ35",
-    "cc": "ke"
-  },
-  {
-    "match": "Kosovo Kosova Косово",
-    "country": "Kosovo",
-    "invite": "https://discord.gg/fuauP9aWct",
-    "cc": "xk"
-  },
-  {
-    "match": "Kuwait الكويت",
-    "country": "Kuwait",
-    "invite": "https://discord.gg/qbKUnUUKJv",
-    "cc": "kw"
-  },
-  {
-    "match": "Latvia Latvija",
-    "country": "Latvia",
-    "invite": "https://discord.gg/fTKCbUaH62",
-    "cc": "lv"
-  },
-  {
-    "match": "Lebanon لبنان Liban",
-    "country": "Lebanon",
-    "invite": "https://discord.gg/gjKzprh9RD",
-    "cc": "lb"
-  },
-  {
-    "match": "Lithuania Lietuva",
-    "country": "Lithuania",
-    "invite": "https://discord.gg/gFbBDfdRcX",
-    "cc": "lt"
-  },
-  {
-    "match": "Luxembourg Lëtzebuerg Luxemburg",
-    "country": "Luxembourg",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "lu"
-  },
-  {
-    "match": "Macedonia Македонија",
-    "country": "Macedonia",
-    "invite": "https://discord.gg/yDTEE6p79e",
-    "cc": "mk"
-  },
-  {
-    "match": "Malawi",
-    "country": "Malawi",
-    "invite": "https://discord.gg/eWWqGkBeQa",
-    "cc": "mw"
-  },
-  {
-    "match": "Malaysia",
-    "country": "Malaysia",
-    "invite": "https://discord.gg/aeHmUTyj",
-    "cc": "my"
-  },
-  {
-    "match": "Mauritius île Maurice",
-    "country": "Mauritius",
-    "invite": "https://discord.gg/PQdUhqgpE8",
-    "cc": "mu"
-  },
-  {
-    "match": "México Mexico",
-    "country": "Mexico",
-    "invite": "https://discord.gg/nEUwqaJKMH",
-    "cc": "mx"
-  },
-  {
-    "match": "Moldova",
-    "country": "Moldova",
-    "invite": "https://discord.gg/WQyXKRJ5w2",
-    "cc": "md"
-  },
-  {
-    "match": "Montenegro Crna Gora",
-    "country": "Montenegro",
-    "invite": "https://discord.gg/pjfg8DnXz6",
-    "cc": "me"
-  },
-  {
-    "match": "Morocco المغرب",
-    "country": "Morocco",
-    "invite": "https://discord.gg/fH5Kw55wKD",
-    "cc": "ma"
-  },
-  {
-    "match": "Myanmar မြန်မာ",
-    "country": "Myanmar",
-    "invite": "https://discord.gg/NRcH3tzJHT",
-    "cc": "ma"
-  },
-  {
-    "match": "Nepal नेपाल",
-    "country": "Nepal",
-    "invite": "https://discord.gg/wPfJTg6pCy",
-    "cc": "np"
-  },
-  {
-    "match": "The Netherlands Holland Nederland",
-    "country": "Netherlands",
-    "invite": "https://discord.gg/3U5ZtGrPp4",
-    "cc": "nl"
-  },
-  {
-    "match": "New Zealand Aotearoa",
-    "country": "New Zealand",
-    "invite": "https://discord.gg/qYSGysExep",
-    "cc": "nz"
-  },
-  {
-    "match": "Nigeria",
-    "country": "Nigeria",
-    "invite": "https://discord.gg/FHvQGYq3U9",
-    "cc": "ng"
-  },
-  {
-    "match": "Norway Norge Noreg",
-    "country": "Norway",
-    "invite": "https://discord.gg/tWBZAQw3tp",
-    "cc": "no"
-  },
-  {
-    "match": "Oman سلطنة عمان",
-    "country": "Oman",
-    "invite": "https://discord.gg/7DF77x86JF",
-    "cc": "om"
-  },
-  {
-    "match": "Palestine فلسطين",
-    "country": "Palestine",
-    "invite": "https://discord.gg/JNsaveYzBw",
-    "cc": "ps"
-  },
-  {
-    "match": "Pakistan پاکستان",
-    "country": "Pakistan",
-    "invite": "https://discord.gg/ZHrHeSw3CX",
-    "cc": "pk"
-  },
-  {
-    "match": "Paraguay Paraguái",
-    "country": "Paraguay",
-    "invite": "https://discord.gg/nxUmT6er",
-    "cc": "py"
-  },
-  {
-    "match": "Peru Perú",
-    "country": "Peru",
-    "invite": "https://discord.gg/uuM53NF7u6",
-    "cc": "pe"
-  },
-  {
-    "match": "Philippines Pilipinas",
-    "country": "Philippines",
-    "invite": "https://discord.gg/JTfQxmkxRS",
-    "cc": "ph"
-  },
-  {
-    "match": "Poland Polska",
-    "country": "Poland",
-    "invite": "https://discord.gg/qKcPtRCwEn",
-    "cc": "pl"
-  },
-  {
-    "match": "Portugal",
-    "country": "Portugal",
-    "invite": "https://discord.gg/9mpunMqUNV",
-    "cc": "pt"
-  },
-  {
-    "match": "Puerto Rico",
-    "country": "Puerto Rico",
-    "invite": "https://discord.gg/NVBu9shyst",
-    "cc": "pr"
-  },
-  {
-    "match": "Romania România",
-    "country": "Romania",
-    "invite": "https://discord.gg/DZFD57QVuz",
-    "cc": "ro"
-  },
-  {
-    "match": "Russia Россия",
-    "country": "Russia",
-    "invite": "https://discord.gg/wJkwr4PRFP",
-    "cc": "ru"
-  },
-  {
-    "match": "Saudi Arabia السعودية",
-    "country": "Saudi Arabia",
-    "invite": "https://discord.gg/mye9zG3Yw9",
-    "cc": "sa"
-  },
-  {
-    "match": "Serbia Србија",
-    "country": "Serbia",
-    "invite": "https://discord.gg/EA9md5cJ8t",
-    "cc": "rs"
-  },
-  {
-    "match": "Singapore 新加坡",
-    "country": "Singapore",
-    "invite": "https://discord.gg/NWMr7EGz",
-    "cc": "sg"
-  },
-  {
-    "match": "Slovakia Slovensko",
-    "country": "Slovakia",
-    "invite": "https://discord.gg/2bqjyjhZJh",
-    "cc": "sk"
-  },
-  {
-    "match": "Slovenia Slovenija",
-    "country": "Slovenia",
-    "invite": "https://discord.gg/YSwSX7B8Hs",
-    "cc": "si"
-  },
-  {
-    "match": "South Africa Suid Iningizimu Afrika",
-    "country": "South Africa",
-    "invite": "https://discord.gg/urE9DNPPK5",
-    "cc": "za"
-  },
-  {
-    "match": "Spain España",
-    "country": "Spain",
-    "invite": "https://discord.gg/GDGUqKcYdv",
-    "cc": "es"
-  },
-  {
-    "match": "Sri Lanka ශ්රී ලංකාව",
-    "country": "Sri Lanka",
-    "invite": "https://discord.gg/tsN69d3saK",
-    "cc": "lk"
-  },
-  {
-    "match": "Syria سوريا",
-    "country": "Syria",
-    "invite": "https://discord.gg/NYZp8nMcgc",
-    "cc": "sy"
-  },
-  {
-    "match": "Sweden Sverige",
-    "country": "Sweden",
-    "invite": "https://discord.gg/sWmNyWuwr7",
-    "cc": "se"
-  },
-  {
-    "match": "Switzerland",
-    "country": "Switzerland",
-    "invite": "https://discord.gg/cPvbjnsdnt",
-    "cc": "ch"
-  },
-  {
-    "match": "The Bahamas",
-    "country": "The Bahamas",
-    "invite": "https://discord.gg/jT7FyUvtkY",
-    "cc": "bs"
-  },
-  {
-    "match": "Thailand ประเทศไทย",
-    "country": "Thailand",
-    "invite": "https://discord.gg/2ahAJD9r8q",
-    "cc": "th"
-  },
-  {
-    "match": "Tunisia تونس",
-    "country": "Tunisia",
-    "invite": "https://discord.gg/TdQzsXTWzr",
-    "cc": "tn"
-  },
-  {
-    "match": "Türkiye Turkey",
-    "country": "Turkey",
-    "invite": "https://discord.gg/Ktn36Cm8NZ",
-    "cc": "tr"
-  },
-  {
-    "match": "UAE United Arab Emirates",
-    "country": "United Arab Emirates",
-    "invite": "https://discord.gg/T9djSMu34u",
-    "cc": "ae"
-  },
-  {
-    "match": "UK United Kingdom England",
-    "country": "UK/England",
-    "invite": "https://discord.gg/m4NgBrfNuX",
-    "cc": "gb-eng"
-  },
-  {
-    "match": "UK United Kingdom Northern Ireland",
-    "country": "UK/Northern Ireland",
-    "invite": "https://discord.gg/pY4AC5HF",
-    "cc": "gb-nir"
-  },
-  {
-    "match": "UK United Kingdom Scotland",
-    "country": "UK/Scotland",
-    "invite": "https://discord.gg/uAy9Az9Sfu",
-    "cc": "gb-sct"
-  },
-  {
-    "match": "UK United Kingdom Wales",
-    "country": "UK/Wales",
-    "invite": "https://discord.gg/jg3kRkGby5",
-    "cc": "gb-wls"
-  },
-  {
-    "match": "Ukraine Україна",
-    "country": "Ukraine",
-    "invite": "https://discord.gg/NjtQGWjFgT",
-    "cc": "ua"
-  },
-  {
-    "match": "Uruguay",
-    "country": "Uruguay",
-    "invite": "https://discord.gg/jAmgW5PF",
-    "cc": "uy"
-  },
-  {
-    "match": "USA United States America",
-    "country": "United States",
-    "invite": "https://discord.gg/3zWXdZxC6a",
+    "match": "USA",
+    "country": "USA",
+    "invite": "https://discord.gg/JsxPd8GWDF",
     "cc": "us"
   },
   {
-    "match": "USA United States America Arizona",
-    "country": "United States/Arizona",
-    "invite": "https://discord.gg/sYmzYEW6U5",
-    "cc": "us-az"
+    "match": "Albania",
+    "country": "Albania",
+    "invite": "https://discord.gg/ftVCAFXd4z",
+    "cc": "al"
   },
   {
-    "match": "USA United States America California",
-    "country": "United States/California",
-    "invite": "https://discord.gg/QK3YAC99eQ",
-    "cc": "us-ca"
+    "match": "Turkey",
+    "country": "Turkey",
+    "invite": "https://discord.gg/rTr6WDaGHx",
+    "cc": "tr"
   },
   {
-    "match": "USA United States America Colorado",
-    "country": "United States/Colorado",
-    "invite": "https://discord.gg/FTPshqUkAE",
-    "cc": "us-co"
+    "match": "UK",
+    "country": "UK",
+    "invite": "https://discord.gg/NSGXY3sCpr",
+    "cc": "gb"
   },
   {
-    "match": "USA United States America Connecticut",
-    "country": "United States/Connecticut",
-    "invite": "https://discord.gg/Mpy8NJgGm2",
-    "cc": "us-ct"
+    "match": "Algeria",
+    "country": "Algeria",
+    "invite": "https://discord.gg/7mcxnr5vjP",
+    "cc": "dz"
   },
   {
-    "match": "USA United States America Florida",
-    "country": "United States/Florida",
-    "invite": "https://discord.gg/WGTK2ZebR2",
-    "cc": "us-fl"
+    "match": "Australia",
+    "country": "Australia",
+    "invite": "https://discord.gg/SJuvDpFbxA",
+    "cc": "au"
   },
   {
-    "match": "USA United States America Hawaii",
-    "country": "United States/Hawaii",
-    "invite": "https://discord.gg/ayPEbP6k",
-    "cc": "us-hi"
+    "match": "Chile",
+    "country": "Chile",
+    "invite": "https://discord.gg/TwKavR5XXs",
+    "cc": "cl"
   },
   {
-    "match": "USA United States America Montana",
-    "country": "United States/Montana",
-    "invite": "https://discord.gg/EBKRjvGpqk",
-    "cc": "us-mt"
+    "match": "Russia",
+    "country": "Russia",
+    "invite": "https://discord.gg/CjQZK5tASw",
+    "cc": "ru"
   },
   {
-    "match": "USA United States America New Jersey",
-    "country": "United States/New Jersey",
-    "invite": "https://discord.gg/9kNgH8sWSv",
-    "cc": "us-nj"
+    "match": "Iraq",
+    "country": "Iraq",
+    "invite": "https://discord.gg/pFkTyw8z85",
+    "cc": "iq"
   },
   {
-    "match": "USA United States America Texas",
-    "country": "United States/Texas",
-    "invite": "https://discord.gg/JCWbmDmQ4h",
-    "cc": "us-tx"
+    "match": "Kuwait",
+    "country": "Kuwait",
+    "invite": "https://discord.gg/xk4VAA9HNB",
+    "cc": "kw"
   },
   {
-    "match": "USA United States America Washington",
-    "country": "United States/Washington",
-    "invite": "https://discord.gg/VBHE3RNkYh",
-    "cc": "us-wa"
+    "match": "Israel",
+    "country": "Israel",
+    "invite": "https://discord.gg/hsgQ846Fr2",
+    "cc": "il"
   },
   {
-    "match": "Venezuela",
-    "country": "Venezuela",
-    "invite": "https://discord.gg/xvdBZ3kBgk",
-    "cc": "ve"
+    "match": "Slovenia",
+    "country": "Slovenia",
+    "invite": "https://discord.gg/kx8ewtgB7S",
+    "cc": "si"
+  },
+  {
+    "match": "Syria",
+    "country": "Syria",
+    "invite": "https://discord.gg/yvYFhrmDUZ",
+    "cc": "sy"
+  },
+  {
+    "match": "Greece",
+    "country": "Greece",
+    "invite": "https://discord.gg/NwRZuk3hsK",
+    "cc": "gr"
   }
 ]
