@@ -118,9 +118,13 @@ document
       }        
     } catch (e) {
       console.error(e);
-      findHomeBtn.innerText = `Location fetching error: ${e} ${e.stack}`;
-      await sleep(3000);
-      return;
+
+      const userLanguage = navigator.language;
+      const NavUserCountryCode = userLanguage.substr(userLanguage.length - 2);
+      console.log(NavUserCountryCode);
+      findHomeBtn.innerText = `Location fetching error: ${e} ${e.stack} \n Gonna use the navigator api`;
+
+      country = NavUserCountryCode.toLowerCase();
     }
 
     const geoServer =
