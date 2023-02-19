@@ -537,7 +537,7 @@ document
     }
 
     try {;
-      let res = await fetchPlus('https://example.net', {}, 10);
+      let res = await fetchPlus('https://ipapi.co/json', {}, 10);
       let CountryCode = res.country_code
 
       if (res) {
