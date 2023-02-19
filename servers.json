@@ -106,5 +106,11 @@
     "country": "France",
     "invite": "https://discord.gg/QM5sffS2xy",
     "cc": "fr"
+  },
+  {
+    "match": "Czech Republic",
+    "country": "Czech Republic",
+    "invite": "https://discord.gg/eENdAvHTy5",
+    "cc": "cz"
   }
 ]
