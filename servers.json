@@ -120,7 +120,7 @@
     "cc": "ca"
   },
   {
-    "match": "Spain Éspania",
+    "match": "Spain",
     "country": "Spain",
     "invite": "https://discord.gg/Z9pPVR6XtG",
     "cc": "es"
