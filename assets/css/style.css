@@ -75,6 +75,9 @@ canvas {
   text-align: center;
   min-height: 100vh;
 }
+.not-your-country-button2 {
+  padding: 2vh 2vw;
+}
 
 .wrapper {
   display: inline-flex;
