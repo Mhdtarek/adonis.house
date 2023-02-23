@@ -655,33 +655,43 @@ document
     }
 
     // If the user wants to find another country's Discord server, we'll add the event listener now (since you cannot do it earlier)
-    document
-      .getElementsByClassName('not-your-country-button')[0]
-      .addEventListener('click', async () => {
-        // Clear value of search box & the list to make it less annoying to search again
-        const countrySearchBox =
-          document.getElementsByClassName('country-input')[0];
-        countrySearchBox.value = '';
-
-        const countryList = document.getElementById('countryList');
-        countryList.replaceChildren();
-
-        // Hide button, show input box & list
-
-        const notYourCountryBtn = document.getElementsByClassName(
-          'not-your-country-button'
-        )[0];
-        notYourCountryBtn.style.display = 'none';
-
-        const countrySearch =
-          document.getElementsByClassName('country-search')[0];
-        countrySearch.style.display = 'flex';
-
-        document.getElementsByClassName('country-input')[0].focus();
-      });
 
   });
 
+
+  function searchCountry(){
+  console.log("clicked")
+    // Clear value of search box & the list to make it less annoying to search again
+    const main = document.getElementById('main');
+
+    // how to delete a dom element in js
+
+    main.parentNode.removeChild(main);
+
+
+    main.innerHTML = '';
+
+    const countrySearchBox =
+      document.getElementsByClassName('country-input')[0];
+    countrySearchBox.value = '';
+
+    const countryList = document.getElementById('countryList');
+    countryList.replaceChildren();
+
+    // Hide button, show input box & list
+
+    const notYourCountryBtn = document.getElementsByClassName(
+      'not-your-country-button'
+    )[0];
+    notYourCountryBtn.style.display = 'none';
+
+    const countrySearch =
+      document.getElementsByClassName('country-search')[0];
+    countrySearch.style.display = 'flex';
+
+    document.getElementsByClassName('country-input')[0].focus();
+}
+  
 // This function basically sets the current country on the stage 2 page.
 async function setCurrentCountry(
   name,

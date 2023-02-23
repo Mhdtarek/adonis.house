@@ -73,7 +73,9 @@ canvas {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 90vh;
+}
+#main {
+  min-height: 85vh;
 }
 
 .wrapper {
@@ -293,7 +295,12 @@ canvas {
 }
 
 .not-your-country {
-  height: 20vh;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .not-your-country-button {

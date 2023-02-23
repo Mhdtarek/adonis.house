@@ -388,16 +388,6 @@
             </div>
 
             <button class="button join-button">Join your brothers!</button>
-
-            <div class="country-search">
-              <input
-                type="text"
-                class="country-input"
-                placeholder="Enter your country"
-                onKeyUp="populateServerList(this.value)"
-              />
-              <div class="country-list" id="countryList"></div>
-            </div>
           </div>
           <div class="no-country-found-wrapper">
             <h2 class="no-country-found-title">No brotherhood was found!</h2>
@@ -419,9 +409,19 @@
     </div>
 
     <div class="not-your-country">
-      <button class="button not-your-country-button">
-        Not your true country?
+      <button class="button not-your-country-button" onclick="searchCountry()">
+        Or search for your country
       </button>
+
+      <div class="country-search not-your-country-button">
+        <input
+          type="text"
+          class="country-input"
+          placeholder="Enter your country"
+          onKeyUp="populateServerList(this.value)"
+        />
+        <div class="country-list" id="countryList"></div>
+      </div>
     </div>
 
     <script src="assets/js/find_home.js?hash"></script>
