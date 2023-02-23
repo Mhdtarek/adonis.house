@@ -126,12 +126,6 @@
     "cc": "es"
   },
   {
-    "match": "Portugal",
-    "country": "Portugal",
-    "invite": "https://discord.gg/z8qsYKnqBA",
-    "cc": "pt"
-  },
-  {
     "match": "Vietnam",
     "country": "Vietnam",
     "invite": "https://discord.gg/CzPFHbFagV",
@@ -142,5 +136,11 @@
     "country": "Malaysia",
     "invite": " https://discord.gg/f8aAUC4b7k",
     "cc": "my"
+  },
+  {
+    "match": "Portugal",
+    "country": "Portugal",
+    "invite": "https://discord.gg/z8qsYKnqBA",
+    "cc": "pt"
   }
 ]
