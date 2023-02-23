@@ -679,31 +679,7 @@ document
 
         document.getElementsByClassName('country-input')[0].focus();
       });
-    // and another one if your country doesn't exist but you wanna double check
-    document
-    .getElementsByClassName('not-your-country-button2')[0]
-    .addEventListener('click', async () => {
-      // Clear value of search box & the list to make it less annoying to search again
-      const countrySearchBox =
-        document.getElementsByClassName('country-input2')[0];
-      countrySearchBox.value = '';
 
-      const countryList = document.getElementById('countryList2');
-      countryList.replaceChildren();
-
-      // Hide button, show input box & list
-
-      const notYourCountryBtn = document.getElementsByClassName(
-        'not-your-country-button2'
-      )[0];
-      notYourCountryBtn.style.display = 'none';
-
-      const countrySearch =
-        document.getElementsByClassName('country-search2')[0];
-      countrySearch.style.display = 'flex';
-
-      document.getElementsByClassName('country-input2')[0].focus();
-    });
   });
 
 // This function basically sets the current country on the stage 2 page.

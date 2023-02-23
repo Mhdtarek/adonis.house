@@ -73,10 +73,7 @@ canvas {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
-}
-.not-your-country-button2 {
-  padding: 2vh 2vw;
+  min-height: 90vh;
 }
 
 .wrapper {
@@ -293,6 +290,10 @@ canvas {
 .join-button {
   margin-bottom: 15px;
   padding: 20px 40px;
+}
+
+.not-your-country {
+  height: 20vh;
 }
 
 .not-your-country-button {
