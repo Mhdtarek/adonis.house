@@ -734,7 +734,13 @@ async function setCurrentCountry(
 
     const countrySearch = document.getElementsByClassName('country-search')[0];
     countrySearch.style.display = 'none';
+
   }
+}
+
+function goToCountry(inviteURL) {
+  // go to country
+		window.location.href = inviteURL;
 }
 
 // This is a hacky auto-complete function I cobbled together using StackOverflow.
@@ -749,8 +755,6 @@ function autocompleteMatch(input) {
   const filtered = servers.filter(country => reg.test(country.match));
   return filtered;
 }
-console.log(autocompleteMatch('Syria'))
-
 // This function is called every time the user pops a key into the "Enter your country" search box
 function populateServerList(input) {
   const countryList = document.getElementById('countryList');
@@ -783,7 +787,7 @@ function populateServerList(input) {
           countryList.insertAdjacentHTML(
             'beforeend',
             `
-              <button class="country-btn" onclick='setCurrentCountry("${server.country}", "${server.cc}", "${server.invite}", true)'>
+              <button class="country-btn" onclick='goToCountry("${server.invite}")'>
                   <img class="country-btn-img" src="https://flagcdn.com/${server.cc}.svg"/>
                   <span class="country-btn-name">${server.country}</span>
               </button>
