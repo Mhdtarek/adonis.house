@@ -578,8 +578,6 @@ document
         userCountry = timeZoneCityToCountry[userCity];
 
         country = userCountry
-
-        console.log({ userRegion, userCity, userCountry })
       }
       else {
         const userLanguage = navigator.language;
