@@ -252,7 +252,7 @@ var timeZoneCityToCountry = {
   "Palau": "Palau",
   "Asuncion": "Paraguay",
   "Qatar": "Qatar",
-  "Reunion": "Réunion",
+  "Reunion": "RÃ©union",
   "Bucharest": "Romania",
   "Belgrade": "Serbia",
   "Kaliningrad": "Russia",
@@ -355,7 +355,7 @@ var timeZoneCityToCountry = {
   "DumontDUrville": "Antarctica",
   "Syowa": "Antarctica",
   "Aruba": "Aruba",
-  "Mariehamn": "Åland Islands",
+  "Mariehamn": "Ã…land Islands",
   "Sarajevo": "Bosnia & Herzegovina",
   "Ouagadougou": "Burkina Faso",
   "Bahrain": "Bahrain",
@@ -373,7 +373,7 @@ var timeZoneCityToCountry = {
   "Bangui": "Central African Rep.",
   "Brazzaville": "Congo (Rep.)",
   "Douala": "Cameroon",
-  "Curacao": "Curaçao",
+  "Curacao": "CuraÃ§ao",
   "Busingen": "Germany",
   "Djibouti": "Djibouti",
   "Dominica": "Dominica",
@@ -435,6 +435,21 @@ var timeZoneCityToCountry = {
   "Lusaka": "Zambia",
   "Harare": "Zimbabwe"
 }
+
+// It kindof works.
+// Thanks: https://markmichon.com/automatic-retries-with-fetch
+const fetchPlus = (url, options = {}, retries) =>
+  fetch(url, options)
+    .then((res) => {
+      if (res.ok) {
+        return res.json();
+      }
+      if (retries > 0) {
+        return fetchPlus(url, options, retries - 1);
+      }
+      throw new Error(res.status);
+    })
+    .catch((error) => console.error(error.message));
 
 fetchServers()
 
@@ -513,7 +528,7 @@ document
     // ..Then we'll change the globe gif to a faster one, to tell the user something more is happening
     const globeImg = document.getElementsByClassName('globe')[0];
     await loadImage(globeImg, 'assets/img/stage1/Rotating_earth_animated_transparent_fast.webp');
-    
+
     // Increase speed of stars to signify we are travelling to the next stage at a fast pace
     starSpeed = 0.6;
 
@@ -538,7 +553,8 @@ document
       return;
     }
 
-    try {;
+    try {
+      ;
       let res = await fetchPlus('https://ipapi.co/json', {}, 10);
       let CountryCode = res.country_code
 
@@ -546,11 +562,11 @@ document
         if (res.region_code) {
           region_code = res.region_code.toLowerCase();
           country = CountryCode.toLowerCase();
-        } 
-        
+        }
+
       } else {
         console.error("Error with getting IP info:", res);
-      }        
+      }
     } catch (e) {
       console.error(e);
 
@@ -563,14 +579,14 @@ document
 
         country = userCountry
 
-        console.log({userRegion, userCity, userCountry})
+        console.log({ userRegion, userCity, userCountry })
       }
       else {
         const userLanguage = navigator.language;
         const NavUserCountryCode = userLanguage.substr(userLanguage.length - 2);
         console.log(NavUserCountryCode);
         findHomeBtn.innerText = `Location fetching error: ${e} ${e.stack} \n Gonna use the navigator api`;
-  
+
         country = NavUserCountryCode.toLowerCase();
       }
     }
@@ -656,42 +672,42 @@ document
       audio.muted = true;
     }
 
-    
+
   });
-  
-  
-  // If the user wants to find another country's Discord server, we'll add the event listener now (since you cannot do it earlier)
-  async function searchCountry(){
-    // Clear value of search box & the list to make it less annoying to search again
-    
-    //delete main;
-    const main = document.getElementById('main');
-    main.parentNode.removeChild(main);
 
-    //fetch servers
-    fetchServers()
 
-    const countrySearchBox =
-      document.getElementsByClassName('country-input')[0];
-    countrySearchBox.value = '';
+// If the user wants to find another country's Discord server, we'll add the event listener now (since you cannot do it earlier)
+async function searchCountry() {
+  // Clear value of search box & the list to make it less annoying to search again
 
-    const countryList = document.getElementById('countryList');
-    countryList.replaceChildren();
+  //delete main;
+  const main = document.getElementById('main');
+  main.parentNode.removeChild(main);
 
-    // Hide button, show input box & list
+  //fetch servers
+  fetchServers()
 
-    const notYourCountryBtn = document.getElementsByClassName(
-      'not-your-country-button'
-    )[0];
-    notYourCountryBtn.style.display = 'none';
+  const countrySearchBox =
+    document.getElementsByClassName('country-input')[0];
+  countrySearchBox.value = '';
 
-    const countrySearch =
-      document.getElementsByClassName('country-search')[0];
-    countrySearch.style.display = 'flex';
+  const countryList = document.getElementById('countryList');
+  countryList.replaceChildren();
 
-    document.getElementsByClassName('country-input')[0].focus();
+  // Hide button, show input box & list
+
+  const notYourCountryBtn = document.getElementsByClassName(
+    'not-your-country-button'
+  )[0];
+  notYourCountryBtn.style.display = 'none';
+
+  const countrySearch =
+    document.getElementsByClassName('country-search')[0];
+  countrySearch.style.display = 'flex';
+
+  document.getElementsByClassName('country-input')[0].focus();
 }
-  
+
 // This function basically sets the current country on the stage 2 page.
 async function setCurrentCountry(
   name,
@@ -730,14 +746,9 @@ function autocompleteMatch(input) {
   if (input === '') return [];
 
   const lowercase = input.toLowerCase();
-  const reg = new RegExp(lowercase);
+  const reg = new RegExp(lowercase, 'i');
 
-  const filtered = Object.keys(servers)
-    .filter((term) => term.match(reg))
-    .reduce((obj, key) => {
-      obj[key] = servers[key];
-      return obj;
-    }, {});
+  const filtered = servers.filter(country => reg.test(country.match));
   return filtered;
 }
 console.log(autocompleteMatch('Syria'))
@@ -806,20 +817,7 @@ function populateServerList(input) {
   }
 }
 
-// It kindof works.
-// Thanks: https://markmichon.com/automatic-retries-with-fetch
-const fetchPlus = (url, options = {}, retries) =>
-  fetch(url, options)
-    .then((res) => {
-      if (res.ok) {
-        return res.json();
-      }
-      if (retries > 0) {
-        return fetchPlus(url, options, retries - 1);
-      }
-      throw new Error(res.status);
-    })
-    .catch((error) => console.error(error.message));
+
 
 // Bog standard sleep function.
 // My go-to, thanks! https://stackoverflow.com/a/39914235
@@ -848,13 +846,13 @@ const loadCDN = (src) =>
 // https://stackoverflow.com/questions/37854355/wait-for-image-loading-to-complete-in-javascript
 // amen ^_^
 async function loadImage(img, imageUrl) {
-    const imageLoadPromise = new Promise(resolve => {
-        img.onload = resolve;
-        img.src = imageUrl;
-    });
+  const imageLoadPromise = new Promise(resolve => {
+    img.onload = resolve;
+    img.src = imageUrl;
+  });
 
-    await imageLoadPromise;
-    return img;
+  await imageLoadPromise;
+  return img;
 }
 async function fetchServers() {
   servers = await fetchPlus('servers.json?hash', {}, 5)
