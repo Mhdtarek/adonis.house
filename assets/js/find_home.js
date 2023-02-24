@@ -1,6 +1,6 @@
 // Whew, this JS is a bit complex. Lemme walk you through it
 
-let servers = [];
+let servers = []
 let starSpeed = 0.1;
 
 var userRegion;
@@ -436,6 +436,8 @@ var timeZoneCityToCountry = {
   "Harare": "Zimbabwe"
 }
 
+fetchServers()
+
 // So, when the page fully loads..
 window.addEventListener('load', async () => {
   // Add event listener to the "Begin" button.
@@ -654,22 +656,20 @@ document
       audio.muted = true;
     }
 
-    // If the user wants to find another country's Discord server, we'll add the event listener now (since you cannot do it earlier)
-
+    
   });
-
-
-  function searchCountry(){
-  console.log("clicked")
+  
+  
+  // If the user wants to find another country's Discord server, we'll add the event listener now (since you cannot do it earlier)
+  async function searchCountry(){
     // Clear value of search box & the list to make it less annoying to search again
+    
+    //delete main;
     const main = document.getElementById('main');
-
-    // how to delete a dom element in js
-
     main.parentNode.removeChild(main);
 
-
-    main.innerHTML = '';
+    //fetch servers
+    fetchServers()
 
     const countrySearchBox =
       document.getElementsByClassName('country-input')[0];
@@ -738,17 +738,24 @@ function autocompleteMatch(input) {
       obj[key] = servers[key];
       return obj;
     }, {});
-
   return filtered;
 }
+console.log(autocompleteMatch('Syria'))
 
 // This function is called every time the user pops a key into the "Enter your country" search box
 function populateServerList(input) {
   const countryList = document.getElementById('countryList');
+  console.log(countryList.childNodes);
+
+  console.log(input)
+
+  fetchServers()
 
   try {
     // We'll run their input and try and find a match in the array of servers
     let terms = autocompleteMatch(input);
+
+    console.log("terms", terms)
 
     // Split the keys/values into seperate arrays so it's less of a pain to iterate
     const keys = Object.keys(terms);
@@ -767,11 +774,11 @@ function populateServerList(input) {
           countryList.insertAdjacentHTML(
             'beforeend',
             `
-        <button class="country-btn" onclick='setCurrentCountry("${server.country}", "${server.cc}", "${server.invite}", true)'>
-            <img class="country-btn-img" src="https://flagcdn.com/${server.cc}.svg"/>
-            <span class="country-btn-name">${server.country}</span>
-        </button>
-        `
+              <button class="country-btn" onclick='setCurrentCountry("${server.country}", "${server.cc}", "${server.invite}", true)'>
+                  <img class="country-btn-img" src="https://flagcdn.com/${server.cc}.svg"/>
+                  <span class="country-btn-name">${server.country}</span>
+              </button>
+            `
           );
         }
       } else if (keys.length === 0 && input !== '') {
@@ -848,4 +855,8 @@ async function loadImage(img, imageUrl) {
 
     await imageLoadPromise;
     return img;
+}
+async function fetchServers() {
+  servers = await fetchPlus('servers.json?hash', {}, 5)
+  console.log(servers)
 }
