@@ -154,5 +154,17 @@
     "country": "UAE",
     "invite": "https://discord.gg/89gzfHjuaR",
     "cc": "ae"
+  },
+  {
+    "match": "Norway",
+    "country": "Norway",
+    "invite": "https://discord.gg/FEC7zzAm4x",
+    "cc": "no"
+  },
+  {
+    "match": "France",
+    "country": "France",
+    "invite": "https://discord.gg/6rghc2pR3s",
+    "cc": "fr"
   }
 ]
