@@ -176,19 +176,19 @@
   {
     "match": "Netherlands",
     "country": "Benelux",
-    "invite": "https://discord.gg/FEC7zzAm4x",
+    "invite": "https://discord.gg/Bv9JTm9Ams",
     "cc": "nl"
   },
   {
     "match": "Belgium",
     "country": "Benelux",
-    "invite": "https://discord.gg/FEC7zzAm4x",
-    "cc": "no"
+    "invite": "https://discord.gg/Bv9JTm9Ams",
+    "cc": "be"
   },
   {
     "match": "Luxembourg",
     "country": "Benelux",
-    "invite": "https://discord.gg/FEC7zzAm4x",
-    "cc": "no"
+    "invite": "https://discord.gg/Bv9JTm9Ams",
+    "cc": "lu"
   }
 ]
