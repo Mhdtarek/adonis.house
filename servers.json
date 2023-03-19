@@ -166,23 +166,5 @@
     "country": "Switzerland",
     "invite": "https://discord.gg/QcMK3rkm6A",
     "cc": "ch"
-  },
-  {
-    "match": "Netherlands",
-    "country": "Benelux",
-    "invite": "https://discord.gg/Bv9JTm9Ams",
-    "cc": "nl"
-  },
-  {
-    "match": "Belgium",
-    "country": "Benelux",
-    "invite": "https://discord.gg/Bv9JTm9Ams",
-    "cc": "be"
-  },
-  {
-    "match": "Luxembourg",
-    "country": "Benelux",
-    "invite": "https://discord.gg/Bv9JTm9Ams",
-    "cc": "lu"
   }
 ]
